@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Enikin Real Estate">
+    <meta name="description" content="This is a real esate agency website made by david sokoya">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="./styles.css">
+
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+    <link rel="preload" as="image" href="./image/slider-image-1.jpg">
+    <link rel="preload" as="image" href="./image/slider-image-2.jpg">
+    <link rel="preload" as="image" href="./image/slider-image-3.jpg">
+    <link rel="preload" as="image" href="./image/property-image-1.jpg">
+    <link rel="preload" as="image" href="./image/property-image-2.jpg">
+    <link rel="preload" as="image" href="./image/property-image-3.jpg">
+    <link rel="preload" as="image" href="./image/property-image-4.jpg">
+    <link rel="preload" as="image" href="./image/property-image-5.jpg">
+    <link rel="preload" as="image" href="./image/property-image-6.jpg">
+    <link rel="preload" as="image" href="./image/about-banner.svg">
+ 
+    <title>Enikin Real Estate Agency</title>
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./image/enikin_logo_colored.svg" width="100" height="30" alt="Enikin logo colored" class="logo-colored">
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./image/enikin_logo_colored.svg" width="100" height="30" alt="Enikin logo colored" class="logo-light">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="#Home" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#Service" class="nav-link">Service</a>
+                </li>
+                <li>
+                    <a href="#About" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#Properties" class="nav-link">Properties</a>
+                </li>
+                <li>
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="wrapper">
+                <a href="mailto:info@enikinestate.com" class="contact-link">info@enikinestate.com</a>
+
+                <a href="https://api.whatsapp.com/send?phone=23407062400714&text=Hi%20Enikin,%20I%20would%20like%20to%20know%20more%20about%20your%20services4" class="contact-link">
+                    (234)7062400714
+                </a>
+            </div>
+
+            <ul class="social-list">
+                
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+         </nav>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <!-- HOME -->
+            <section id="Home" class="hero">
+                <div class="container grid-list">
+                        <div class="hero-content">
+                            <h1 class="h1 hero-title">
+                                Find your dream home or <span>rent</span> your perfect <span>Apartment</span> with Enikin
+                            </h1>
+                            <p class="hero-text">
+                                We help individuals find their ideal home/apartment to rent and support property owners in selling their properties at optimal prices
+                            </p>
+                            <div class="btn-wrapper">
+                            <a href="#Contact" class="btn btn-primary">
+                                Make an Enquiry
+                            </a>
+                            </div>
+                        </div>
+                        <div class="hero-slider" data-slider>
+                            <div class="slider-inner">
+                                <ul class="slider-container" data-slider-container>
+                                    <li class="slider-item">
+                                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                                            <img src="./image/slider-image-3.jpg" alt="hero-banner" class="img-cover" width="575" height="550">
+                                        </figure>
+                                    </li>
+                                    <li class="slider-item">
+                                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                                            <img src="./image/slider-image-2.jpg" alt="hero-banner" class="img-cover" width="575" height="550">
+                                        </figure>
+                                    </li>
+                                    <li class="slider-item">
+                                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                                            <img src="./image/slider-image-1.jpg" alt="hero-banner" class="img-cover" width="575" height="550">
+                                        </figure>
+                                    </li>
+                                <ul>
+                            </div>
+                            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                                <ion-icon name="arrow-back"></ion-icon>
+                            </button>
+                            <button class="slider-btn next" aria-label="slide to previous" data-slider-next>
+                                <ion-icon name="arrow-forward"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICE -->
+            <section id="Service"class="section service">
+                <div class="container">
+                    <p class="section-subtitle">What We Do?</p>
+                    <h2 class="section-title">
+                        We help you with all your real estate needs.
+                    </h2>
+                    <ul class="grid-list">
+                        <li class="service-card">
+                            <div class="card-icon">
+                                <img src="./image/rent-apartment.svg"  height="100%" width="100%" alt="">
+                            </div>
+                            <h3 class="h4 card-title">
+                                Rent an Apartment
+                            </h3>
+                            <p class="card-text">
+                                Find the perfect property to rent in Nigeria with our wide range of available apartments and houses.
+                            </p>
+                        </li>
+                        <li class="service-card">
+                            <div class="card-icon">
+                                <img src="./image/buy-apartment.svg"  height="100%" width="100%" alt="">
+                            </div>
+                            <h3 class="h4 card-title">
+                                Buy Property
+                            </h3>
+                            <p class="card-text">
+                                Looking to buy a property in Nigeria? We have a range of properties available, from apartments to commercial spaces.
+                            </p>
+                        </li>
+                        <li class="service-card">
+                            <div class="card-icon">
+                                <img src="./image/sell-property.svg"  height="100%" width="100%" alt="">
+                            </div>
+                            <h3 class="h4 card-title">
+                                Sell Property
+                            </h3>
+                            <p class="card-text">
+                                Looking to sell your property? Our team of experts will help you get the best price for your property.
+                            </p>
+                        </li>
+                        <li class="service-card">
+                            <div class="card-icon">
+                                <img src="./image/property-management.svg"  height="100%" width="100%" alt="">
+                            </div>
+                            <h3 class="h4 card-title">
+                                Manage Property
+                            </h3>
+                            <p class="card-text">
+                                Let us help you manage your property with our comprehensive property management services.
+                            </p>
+                        </li>
+                        
+                    </ul>
+                    <div class="btn-wrapper">
+                        <a href="#Contact" class="btn btn-secondary">
+                            Get in Touch
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="About" class="about">
+                <div class="container grid-list">
+                    <figure class="about-image" >
+                        <img src="./image/about-banner.svg" alt="about banner" width="800" height="580" loading="lazy" class="w-100" >
+                    </figure>
+                    <div class="about-content">
+                        <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+                        <h2 class="h2 section-title">
+                            Our goal is to help you find your perfect home, investment or commercial space
+                        </h2>
+                        <div class="about-text">
+                            <p> Real Estate was established with the aim of providing professional and reliable real estate services to the people of Nigeria.</p>
+                            <p>Our team of experienced agents have a deep understanding of the local property market, and are dedicated to helping you find the right property that meets your needs.</p> 
+                            <p>With a commitment to excellent customer service, we strive to make your real estate experience as stress-free as possible.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROPERTY FOR RENT -->
+            <section id="Properties" class="property for-rent">
+                <div class="container"> 
+                    <p class="section-subtitle" >Properties</p>
+                        <h2 class="section-title">
+                        For Rent
+                        </h2> 
+                    <ul class="grid-list">
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-1.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Rent</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    Mini Flat
+                                </h3>
+                                <p class="card-description">
+                                    Comes with a bathroom and a toilet, a well tiled floor and the kitchen well fitted. 
+                                </p>
+                                <p class="card-location">
+                                    Akute, Ogun State
+                                </p>
+                            </div>
+                        </li>
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-2.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Rent</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    3Bedroom Block of Flats in Akute for Rent
+                                </h3>
+                                <p class="card-description">
+                                    An upstairs 3 bedroom flat, with toilet, extra toilet for guest, all round tiles, large sitting room, and separate dining area
+                                </p>
+                                <p class="card-location">
+                                    Ajuwon, Ogun State
+                                </p>
+                            </div>
+                        </li>
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-3.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Rent</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    2 Bedroom Flat to Let
+                                </h3>
+                                <p class="card-description">
+                                    2 Bedroom Flat available at Agidingbi Ikeja, constant light & water
+                                </p>
+                                <p class="card-location">
+                                    Ikeja, Lagos State
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- PROPERTY FOR SALE -->
+            <section id="property" class="property for-sale">
+                <div class="container"> 
+                    <p class="section-subtitle">Properties</p>
+                        <h2 class="section-title">
+                        For Sale
+                        </h2> 
+                    <ul class="grid-list">
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-4.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Sale</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    4 bedroom detached duplex
+                                </h3>
+                                <p class="card-description">
+                                    24 hours secured estate, sit out area and furnitures, lay area and toy house, Furnitures and Acs; all brand new; going with it.
+                                </p>
+                                <p class="card-location">
+                                    Chevron, Lekki, Lagos State.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-5.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Sale</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    4 bedroom terraced duplex
+                                </h3>
+                                <p class="card-description">
+                                    Fully Serviced, 24Hrs Light & Water, Swimmingpool, Gym, Oven, Microwave, CCTV, Washing Machine, Secured estate
+
+                                </p>
+                                <p class="card-location">
+                                    Lambe, Ogun State.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="property-card">
+                            <figure class="img-holder card-image">
+                                <img class="property-image" src="./image/property-image-6.jpg" loading="lazy" width="100%" alt="">
+                                <P class="card-tag">For Sale</P>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title h4">
+                                    3 bedroom detached duplex
+                                </h3>
+                                <p class="card-description">
+                                    modern 4 bedroom fully detached duplex, selfcompound, in a serene estate.
+                                </p>
+                                <p class="card-location">
+                                   Ogba, Lagos State
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="section cta" id="Contact">
+                <div class="container grid-list">
+                    <div class="contact-form">
+                        <p class="section-subtitle">Contact</p>
+                        <h2 class="h4 section-title">
+                            Get In Touch With Us
+                        </h2>
+                        <form class="input-wrapper">
+                            <input type="text" id="name" name="name" placeholder="Your Name" class="input-field" required>
+                            <input type="email" id="email" placeholder="Your Email" class="input-field" name="email" required>
+                            <input type="tel" id="phone" placeholder="Your Phone Number" class="input-field"  name="phone">
+                            <textarea id="message" rows="4" name="message" placeholder="Your Message" class="input-field" required></textarea>
+                            <button type="submit" value="Submit" class="btn-submit" submit-btn">Submit</button>
+                        </form>
+                    </div>
+                    <ul class="contact-info">
+                        <li class="info-item">
+                            <div class="info-icon">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>     
+                            <div class="details">
+                                <p class="details-title">Phone</p>
+                                <p class=" h6 detail-text">07062400714</p>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="info-icon">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </div>     
+                            <div class="details">
+                                <p class="details-title">WhatsaApp</p>
+                                <p class=" h6 detail-text">07062400714</p>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="info-icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>     
+                            <div class="details">
+                                <p class="details-title">Email</p>
+                                <p class="detail-text">Enikinestate@gmail.com</p>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="info-icon">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>     
+                            <div class="details">
+                                <p class="details-title">Address</p>
+                                <p class="detail-text">5, Salamander Close, Opposite White House B/Stop, Ajuwon Akute Ogun State</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="brand">
+                <p class="footer-text">
+                    &copy; 2023 Enikin Real Estate. All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
